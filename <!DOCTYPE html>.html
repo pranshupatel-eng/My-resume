@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Resume</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet" />
+  <style>
+
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Source Sans 3', sans-serif;
+      background-color: #f5f0eb;
+      color: #2c2c2c;
+      min-height: 100vh;
+      padding: 40px 20px;
+    }
+
+    .page {
+      max-width: 800px;
+      margin: 0 auto;
+      background: #fff;
+      border-radius: 4px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+      overflow: hidden;
+    }
+
+    header {
+      background-color: #2b3a4a;
+      color: #fff;
+      padding: 40px 48px;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .profile-pic {
+      position: absolute;
+      top: 32px;
+      right: 40px;
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #c9a96e;
+      background: #4a6380;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 36px;
+      color: #c9a96e;
+    }
+
+    .name {
+      font-family: 'Lora', serif;
+      font-size: 2.2rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      margin-bottom: 6px;
+    }
+
+    .tagline {
+      font-size: 1rem;
+      font-weight: 300;
+      color: #c9a96e;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+    }
+
+    .contact-row {
+      margin-top: 16px;
+      display: flex;
+      gap: 24px;
+      font-size: 0.85rem;
+      color: #b0bec8;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .contact-row a {
+      color: #b0bec8;
+      text-decoration: none;
+    }
+
+    main {
+      padding: 40px 48px;
+      display: flex;
+      flex-direction: column;
+      gap: 36px;
+    }
+
+    section {
+      border-left: 3px solid #c9a96e;
+     padding-left: 20px;
+    }
+
+    .section-title {
+      font-family: 'Lora', serif;
+      font-size: 1.1rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: #2b3a4a;
+      margin-bottom: 16px;
+    }
+
+    .entry {
+      margin-bottom: 20px;
+    }
+
+    .entry:last-child {
+      margin-bottom: 0;
+    }
+
+    .entry-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 4px;
+    }
+
+    .entry-title {font-weight: 600;
+      font-size: 1rem;
+      color: #2c2c2c;
+    }
+
+    .entry-date {
+      font-size: 0.82rem;
+      color: #999;
+      white-space: nowrap;
+    }
+
+    .entry-subtitle {
+      font-size: 0.9rem;
+      color: #c9a96e;
+      margin: 2px 0 6px;
+      font-weight: 600;
+    }
+
+    .entry-desc {
+      font-size: 0.9rem;
+      line-height: 1.7;
+      color: #555;
+    }
+
+    .skills-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skill-tag {
+      background: #f5f0eb;
+      border: 1px solid #d9cfc6;
+      color: #2b3a4a;
+      font-size: 0.82rem;
+      font-weight: 600;
+      padding: 6px 14px;
+      border-radius: 2px;
+      letter-spacing: 0.5px;
+    }
+
+  </style>
+</head>
+
+<body> 
+    <div class="page">
+<header>
+    <h1 class="name"> Pranshu Patel </h1>
+    <p class="tagline"> Student</p>
+
+    <div class="contact row">
+        <span>pranshu2367@gmail.com</span>
+        <span> 91 95386 18892 </span>
+    </div>
+
+</header>
+
+<main>
+
+<section>
+    <h2 class="section-title"> Education</h2>
+
+    <div class="entry">
+        <div class=entry-header">
+            <span class="entry-title">Higher Secondary Certificate, CBSE</span>
+            <span class="entry-date">2023-2025</span>
+        </div>
+        <p class="entry-subtitle"> Shri Ram Global School, Bangalore
+            <p class= "entry-desc">
+                Passed 12th Grade Board Exams with a percentage of 85% in the PCM + Physical Education stream.
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <h2 class="section-title">Work Experience</h2>
+
+        <div class="entry">
+            <div class="entry-header">
+             <span class="entry-title">Crowdsourcing Intern</span>
+             <span class="entry-data">Jun 2024- Aug 2024</span>
+            </div>
+            <p class="entry- subtitle">Blitzpath Innovations,Bangalore
+                <p class="entry-desc">
+                    Worked on understanding the crowdsourcing business model that Blitzpath Innovations used.
+                </p>
+            </div>
+            <div class="entry">
+          <div class="entry-header">
+            <span class="entry-title">Assistant coach</span>
+            <span class="entry-date">Mar 2025- May 2025</span>
+          </div>
+          <p class="entry-subtitle">First Innings Cricket Academy, Bangalore </p>
+          <p class="entry-desc">
+            Was tasked to coach the junior batch of kids, coaching them taught me a lot about leadership and discipline.
+        
+          </p>
+        </div>
+    </section>
+    
+    <section>
+        <h2 class="section-title">Extracurricular activities</h2>
+        <div class="entry">
+            <div class="entry-header">
+                <span class="entry--title">Cricket</span>
+            </div>
+            <p class="entry-desc">
+                Cricket for me is more than a game, it is an emotion. 10 years of playing cricket has given me countless lessons about life, discipline and leadership.
+            </p>
+        </div>
+         
+        <div class="entry">
+            <div class="entry-header">
+                <span class="entry--title">Gym</span>
+            </div>
+            <p class="entry-desc">
+                Finding joy in working out is something that I am eternally grateful for, to do something which I love that ultimately makes me better is truly a blessing.
+            </p>
+        </div>
+    </section>
+
+
+    <section>
+        <h2 class= "section-title">Skills</h2>
+        <div class="skills-grid">
+           <span class="skills-tag">HTML & CSS</span>
+            <span class="skills-tag">Javascript</span>
+            <span class="skills-tag">Negotiations</span>
+            <span class="skills-tag">Presenting skills</span>
+
+
+
+             
+        
+            
+         
+
+
+
+      
